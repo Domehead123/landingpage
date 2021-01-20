@@ -1,0 +1,149 @@
+.landing-box-container {
+ display: flex;
+}
+
+
+.landing-box {
+ background: #00193c;
+ color: #fff;
+ font-family: "franklin-gothic-urw",sans-serif;
+ font-size: 16px;
+ transition: 0.4s all;
+ margin-bottom: 30px;
+}
+
+.landing-box a {
+ display: block;
+ width: 100%;
+ height: 100%;
+ color: #fff;
+ text-decoration: none !important;
+}
+
+.landing-box a:hover {
+ text-decoration: underline !important;
+ color: #fff !important;
+}
+
+.image-wrap {
+ display:block;
+ width: 100%;
+ overflow: hidden;
+}
+
+.image-wrap img {
+ width: 100%;
+ -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+.landing-box img {
+ width: 100%;
+}
+
+.box-text {
+ display: block;
+ padding: 7px 10px;
+}
+
+.landing-box:hover {
+ background-color: #002e6f;
+}
+
+.landing-box:hover img {
+ transform: scale(1.1,1.1);
+ 
+}
+
+.also-row {
+ margin-top: 20px;
+}
+
+.also {
+ font-size: 16px;
+ display: flex;
+ align-items: center;
+ margin-bottom: 10px;
+}
+
+.also img {
+height: 50px;
+padding-right: 7px;
+}
+
+.info-box {
+ margin-top: 20px;
+ padding: 20px;
+border: 1px solid #aaa;
+border-radius: 10px;
+}
+
+.info-box p {
+ font-size: 16px;
+}
+
+.info-box img {
+ float: right;
+ width: 33%;
+ margin: 0 0 20px 20px;
+ padding-top: 5px;
+}
+
+.subject-header {
+    color: #666;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+.subject-header:before {
+    content: "\25A0";
+    line-height: 0;
+    font-size: 1.5em;
+    color: #002e6f;
+    margin-right: 5px;
+}
+
+.icon-container-wrapper {
+ margin-top: 10px;
+}
+
+.icon-container-wrapper .icon-container {
+	font-family: "franklin-gothic-urw",sans-serif;
+	overflow: auto;
+	padding: 0 0.75em 0.75em 0.75em;
+	text-align: center;
+	vertical-align: top;
+	width: 230px;
+}
+
+.icon-container a {
+color: #00193c !important;
+text-decoration: none !important;;
+}
+
+.icon-container img {
+padding: 5px;
+    transition: padding .3s ease-out;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+.icon-container a:hover img{
+	padding: 0;
+	transition: padding .1s ease-out;
+}
+
+.icon-container h2 {
+font-family: "franklin-gothic-urw",sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0px 0px 0.5em;
+    transition: 0.4s all;
+}
+
+.icon-container a:hover h2{
+    color: #00193c !important;
+    text-decoration: underline;
+}
