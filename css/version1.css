@@ -84,9 +84,8 @@ border-radius: 10px;
 }
 
 .info-box img {
- float: right;
- width: 33%;
- margin: 0 0 20px 20px;
+ width: 100%;
+ margin: 10px 0 20px 0;
  padding-top: 5px;
 }
 
@@ -147,3 +146,15 @@ font-family: "franklin-gothic-urw",sans-serif;
     color: #00193c !important;
     text-decoration: underline;
 }
+
+@media only screen and (min-width: 576px) {
+ 
+.info-box img {
+ float: right;
+ width: 33%;
+ margin: 0 0 20px 20px;
+}
+
+}
+
+
