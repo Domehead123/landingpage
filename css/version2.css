@@ -1,7 +1,22 @@
+.navbar {
+ background: #f6f0ef;
+ padding: .5rem 1rem.5rem 0;
+}
+
+.navbar-brand {
+ margin-right: auto;
+ color: #dc0050 ! important;
+ font-size: 1.2em;
+ font-weight: bold;
+}
+
+.navbar-nav {
+ padding-left: 15px;
+}
+
 .landing-box-container {
  display: flex;
 }
-
 
 .landing-box {
  background: #00193c;
@@ -153,6 +168,32 @@ font-family: "franklin-gothic-urw",sans-serif;
 .icon-container a:hover h2{
     color: #00193c !important;
     text-decoration: underline;
+}
+
+.nav-item {
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link {
+ color: #002e6f;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ line-height: 20px;
+}
+
+.item-list {
+ display: none;
+}
+
+@media only screen and (min-width: 650px) {
+ .navbar {
+  display: none;
+ }
+ 
+ .item-list {
+ display: block;
+}
+ 
 }
 
 @media only screen and (min-width: 576px) {
