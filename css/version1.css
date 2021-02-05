@@ -1,7 +1,10 @@
+.landing-box-row {
+margin-top: 20px;
+}
+
 .landing-box-container {
  display: flex;
 }
-
 
 .landing-box {
  background: #00193c;
@@ -53,7 +56,6 @@
 
 .landing-box:hover img {
  transform: scale(1.1,1.1);
- 
 }
 
 .also-row {
