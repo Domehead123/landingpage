@@ -7,7 +7,7 @@
 <!--[if gt IE 8]><!-->  <html class="home no-js" lang="en"> <!--<![endif]-->
 <head><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png" /><link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png" /><link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png" /><link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png" /><link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png" /><link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png" /><link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192" /><link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96" /><link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16" /><link rel="manifest" href="/favicons/manifest.json" /><link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" /><link rel="shortcut icon" href="/favicons/favicon.ico" /><meta name="msapplication-TileColor" content="#2d89ef" /><meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png" /><meta name="msapplication-config" content="/favicons/browserconfig.xml" /><meta name="theme-color" content="#ffffff" /><meta property="og:url" /><meta property="og:title" /><meta property="og:description" content="Easy access to key online services, news and information from Southampton City Council" /><meta property="og:type" content="website" /><meta property="og:image" content="https://www.southampton.gov.uk/img/soton_logo_140.jpg" /><title>
 	Travel & Transport
-</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><link rel="stylesheet" href="css/styleNewFooter.css" /><link rel="stylesheet" href="/css/print.css" /><link rel="stylesheet" href="/css/jquery-ui.css" /><link href="https://flex.southampton.gov.uk/chat/css/flex.chat.pluginv2.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="css/version.css" />
+</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><link rel="stylesheet" href="css/styleNewFooter.css" /><link rel="stylesheet" href="/css/print.css" /><link rel="stylesheet" href="/css/jquery-ui.css" /><link href="https://flex.southampton.gov.uk/chat/css/flex.chat.pluginv2.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="css/version4.css" />
 	<!--[if lte IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<script>window.html5 || document.write('<script src="/js/vendor/html5shiv.js"><\/script>')</script>
@@ -68,7 +68,7 @@
 </div>
 		<header class="header-main">
 			<div class="container">
-				<div class="site-logo"><a href="/">Southampton City Council<img src="/img/logo-whiteout-redesign.png" alt="Southampton City Council logo"></a></div>
+				<div class="site-logo"><a href="/">Southampton City Council<img src="images/logo-whiteout-redesign.png" alt="Southampton City Council logo"></a></div>
 				<div class="search-nav-links">
 					<div id="ctl00_SearchBox1_pnlSiteSearch" class="form__append-search search" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_SearchBox1_btnSiteSearch&#39;)">
 	
@@ -111,24 +111,68 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="https://www.southampton.gov.uk/travel-transport/apply-pay/">Apply & pay <span class="sr-only">(current)</span></a>
+    	
+    	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Apply & pay
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Itchen Bridge toll</a></span>
+           <span class="dropdown-item">- <a href="#">Parking</a></span>
+           <span class="dropdown-item">- <a href="#">Licences</a></span>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.southampton.gov.uk/travel-transport/find-and-plan/">Find & plan</a>
+  
+      	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Find & plan
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Find parking</a></span>
+           <span class="dropdown-item">- <a href="#">Green transport</a></span>
+           <span class="dropdown-item">- <a href="#">MOT service</a></span>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.southampton.gov.uk/travel-transport/fines-and-charges/">Fines & charges</a>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Fines and charges
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Pay a parking fine</a></span>
+           <span class="dropdown-item">- <a href="#">Bus lane penalty charges</a></span>
+        </div>
       </li>
-  <li class="nav-item">
-  <a class="nav-link" href="https://www.southampton.gov.uk/travel-transport/sustainable-transport/">Sustainable transport</a>
-</li>
-  <li class="nav-item">
-  <a class="nav-link"  href="https://www.southampton.gov.uk/travel-transport/report-issue/">Report an issue</a>
-</li>
-  <li class="nav-item">
-  <a class="nav-link" href="https://www.southampton.gov.uk/travel-transport/roadworks/">Roadworks & maintenance</a>
-</li>
+      
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sustainable transport
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Getting around</a></span>
+           <span class="dropdown-item">- <a href="#">Transport policy</a></span>
+        </div>
+      </li>
+      
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Report an issue
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Report a maintenance issue</a></span>
+           <span class="dropdown-item">- <a href="#">Report a parking issue</a></span>
+        </div>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Roadworks & maintenance
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Roadworks & improvements</a></span>
+           <span class="dropdown-item">- <a href="#">Road maintenance</a></span>
+        </div>
+      </li>
  
     </ul>
   </div>
@@ -233,55 +277,28 @@
     	</div>
     	
     	
-    	 <div class="col-6 col-lg-3 landing-box-container">
-    	<div class="landing-box">
-    		<a href="https://www.southampton.gov.uk/travel-transport/apply-pay/itchen-bridge/itchen-top-up.aspx">
-    		<span class="image-wrap">
-    		<img src="images/ItchenBridge.jpg">
-    		</span>
-    		<span class="box-text">Something in a ninth box</span>
-    		</a>
-    	</div>
-    	</div>
-    	
-    	 <div class="col-6 col-lg-3 landing-box-container">
-    	<div class="landing-box">
-    		<a href="https://www.southampton.gov.uk/travel-transport/apply-pay/parking/permits/">
-    			<span class="image-wrap">
-    		<img src="images/permit.jpg">
-    		</span>
-    		<span class="box-text">Something in a tenth box</span>
-    		</a>
-    	</div>
-    	</div>
-    	
-    	 <div class="col-6 col-lg-3 landing-box-container">
-    	<div class="landing-box">
-    		<a href="https://www.southampton.gov.uk/travel-transport/fines-and-charges/parking-fines/">
-    			<span class="image-wrap">
-    		<img src="images/fine.jpg">
-    		</span>
-    		<span class="box-text">Something in an eleventh box</span>
-    		</a>
-    	</div>
-    	</div>
-    	
-    	 <div class="col-6 col-lg-3 landing-box-container">
-    	<div class="landing-box">
-    		<a href="https://www.southampton.gov.uk/travel-transport/find-and-plan/find-parking/">
-    			<span class="image-wrap">
-    		<img src="images/parking.jpg">
-    		</span>
-    		<span class="box-text">Something in a twelfth box</span>
-    		</a>
-    	</div>
-    	</div>
-    	
-    	
-    	
     </div>
      
         
+ 
+  
+  <h2 class="also-head">You may also be interested in...</h2>
+  
+  
+ <div class="row justify-content-center icon-container-wrapper">
+        <div class="col-lg-2 col-6 icon-container">
+                <a href="https://www.southampton.gov.uk/environmental-issues/pollution/green-city/"><img src="images/green-city.png" alt="Green City" title="Green City"><h2>Green City</h2></a>        </div>
+                  <div class="col-lg-2 col-6 icon-container">
+                <a href="https://www.southampton.gov.uk/business-licensing/licensing/taxis-private-hire/"><img src="images/licensing.png" alt="Parking" title="Parking"><h2>Taxi and private hire licensing</h2></a>        </div>
+                  <div class="col-lg-2 col-6 icon-container">
+                <a href="https://www.southampton.gov.uk/housing/your-home/garage-parking-space-waiting-list-application.aspx"><img src="images/Housing.png" alt="Parking" title="Parking"><h2>Garages & Parking Spaces</h2></a>        </div>
+                  <div class="col-lg-2 col-6 icon-container">
+                <a href="https://www.southampton.gov.uk/schools-learning/in-school/school-travel-support/"><img src="images/school.png" alt="Parking" title="Parking"><h2>School travel support</h2></a>        </div>
+            
+      
+</div>
+  
+  
   <div class="row">
   	<div class="col-12">
   		<div class="info-box">
@@ -299,28 +316,6 @@
 
 </div>
 
-  
-  <h2>You may also be interested in...</h2>
-  
-  
- <div class="row justify-content-center icon-container-wrapper">
-        <div class="col-lg-2 col-md-4 col-6 icon-container">
-                <a href="https://www.southampton.gov.uk/environmental-issues/pollution/green-city/"><img src="images/green-city.png" alt="Green City" title="Green City"><h2>Green City</h2></a>        </div>
-                  <div class="col-lg-2 col-md-4 col-6 icon-container">
-                <a href="https://www.southampton.gov.uk/business-licensing/licensing/taxis-private-hire/"><img src="images/licensing.png" alt="Parking" title="Parking"><h2>Taxi and private hire licensing</h2></a>        </div>
-                  <div class="col-lg-2 col-md-4 col-6 icon-container">
-                <a href="https://www.southampton.gov.uk/housing/your-home/garage-parking-space-waiting-list-application.aspx"><img src="images/Housing.png" alt="Parking" title="Parking"><h2>Garages & Parking Spaces</h2></a>        </div>
-                  <div class="col-lg-2 col-md-4 col-6 icon-container">
-                <a href="https://www.southampton.gov.uk/schools-learning/in-school/school-travel-support/"><img src="images/school.png" alt="Parking" title="Parking"><h2>School travel support</h2></a>        </div>
-                  <div class="col-lg-2 col-md-4 col-6 icon-container">
-                <a href="https://www.southampton.gov.uk/planning/"><img src="images/planning.png" alt="Parking" title="Parking"><h2>Planning & Building Control</h2></a>        </div>
-                 <div class="col-lg-2 col-md-4 col-6 icon-container">
-                <a href="https://www.southampton.gov.uk/arts-heritage/"><img src="images/heritage.png" alt="Parking" title="Parking"><h2>City of Culture bid</h2></a>        </div>
-      
-</div>
-  
-  
- 
 
 
 <!-- googleoff: index -->
@@ -334,25 +329,73 @@
 					<div class="sidebar__content">
 
 						<ul class="item-list item-list__rich">
-							<li><strong>Within this section</strong></li>
-<li>
-  <a href="https://www.southampton.gov.uk/travel-transport/apply-pay/">Apply & pay</a>
-</li>
-<li>
-  <a href="https://www.southampton.gov.uk/travel-transport/find-and-plan/">Find & plan</a>
-</li>
-<li>
-  <a href="https://www.southampton.gov.uk/travel-transport/fines-and-charges/">Fines & charges</a>
-</li>
-<li>
-  <a href="https://www.southampton.gov.uk/travel-transport/sustainable-transport/">Sustainable transport</a>
-</li>
-<li>
-  <a href="https://www.southampton.gov.uk/travel-transport/report-issue/">Report an issue</a>
-</li>
-<li>
-  <a href="https://www.southampton.gov.uk/travel-transport/roadworks/">Roadworks & maintenance</a>
-</li>
+							<li><strong>Within this section</strong></li>	
+							
+		<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Apply & pay
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Find parking</a></span>
+           <span class="dropdown-item">- <a href="#">Green transport</a></span>
+           <span class="dropdown-item">- <a href="#">MOT service</a></span>
+        </div>
+      </li>
+
+							
+	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Find & plan
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Itchen Bridge toll</a></span>
+           <span class="dropdown-item">- <a href="#">Parking</a></span>
+           <span class="dropdown-item">- <a href="#">Licences</a></span>
+        </div>
+      </li>
+      
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Fines & charges
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <span class="dropdown-item">- <a href="#">Pay a parking fine</a></span>
+           <span class="dropdown-item">- <a href="#">Bus lane penalty charges</a></span>
+        </div>
+      </li>
+      
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sustainable transport
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Getting around</a></span>
+           <span class="dropdown-item">- <a href="#">Transport policy</a></span>
+        </div>
+      </li>
+      
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Report an issue
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <span class="dropdown-item">- <a href="#">Report a maintenance issue</a></span>
+           <span class="dropdown-item">- <a href="#">Report a parking issue</a></span>
+        </div>
+      </li>
+      
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Roadworks & maintenance
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <span class="dropdown-item">- <a href="#">Roadworks & improvements</a></span>
+           <span class="dropdown-item">- <a href="#">Road maintenance</a></span>
+        </div>
+      </li>
+
 						</ul>
 <!--/housing/default.aspx-->
 

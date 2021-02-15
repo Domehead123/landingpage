@@ -4760,7 +4760,7 @@ a:hover {
 }
 
 .site-logo a {
-     background: url("/img/logo-whiteout-redesign.png") no-repeat scroll center center transparent;
+     background: url("../images/logo-whiteout-redesign.png") no-repeat scroll center center transparent;
      display: block;
      width: 100%;
 }
