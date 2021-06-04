@@ -2,14 +2,42 @@
  margin-bottom: 0 !important;
 }
 
-.breadcrumb {
-background-color: #f6f0ef !important;
-padding: 8px 0px !important;
+.header-main {
+    padding: 1em 0;
 }
+
+.breadcrumb {
+background-color: transparent !important;
+color: #222;
+font-size: 12px;
+margin-bottom: 0 !important;
+padding: 0 !important;
+}
+
+.breadcrumb a {
+ color: #222;
+}
+
+ header h1 {
+  color: #002e6f;
+    font-family: "Arial Bold", Gadget, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 15px 0 25px 0;
+ }
 
 .sidebar__content {
  padding: 17.6px;
  font-size: 17.6px;
+}
+
+.page-body {
+    left: 0! important;
+    width: 100% ! important;
+}
+ 
+.top-strip {
+padding: 0;
 }
 
 .top-strip h1 {
@@ -22,9 +50,21 @@ body {
     background: none repeat scroll 0% 0% #00193c !important;
 }
 
+.sidebar__content {
+ display: none !important;
+}
+
 .navbar {
  background: #f6f0ef;
- padding: .5rem 1rem.5rem 0;
+ padding: 1rem 0;
+ width: 100%;
+ justify-content: flex-end;
+ margin-bottom: 0 !important;
+ min-height: 0 !important;
+}
+
+.navbar-collapse {
+ padding-left: 0 !important;
 }
 
 .navbar-brand {
@@ -38,22 +78,36 @@ body {
  padding-left: 15px;
 }
 
+button.navbar-toggler {
+    margin-right: 1rem;
+}
 
-.landing-box-container {
- display: flex;
+.nav-item {
+ padding: 0 !important;
 }
 
 .landing-box-row {
 margin-top: 20px;
 }
 
+label[for="ctl00_SearchBox1_siteSearch"] {
+   display: none !important
+}
+
+#ctl00_SearchBox1_pnlSiteSearch {
+ margin-top: 18px;
+}
+.landing-box-container {
+ display: flex;
+}
+
 .landing-box {
- background: #00193c;
  color: #fff;
  font-family: "franklin-gothic-urw",sans-serif;
  font-size: 16px;
  transition: 0.4s all;
  margin-bottom: 30px;
+ background: #00193c;
 }
 
 .landing-box a {
@@ -86,18 +140,17 @@ margin-top: 20px;
  width: 100%;
 }
 
-.box-text {
- display: block;
- padding: 7px 10px;
-}
-
 .landing-box:hover {
  background-color: #002e6f;
 }
 
 .landing-box:hover img {
  transform: scale(1.1,1.1);
- 
+}
+
+.box-text {
+ display: block;
+ padding: 7px 10px;
 }
 
 .also-row {
@@ -111,6 +164,10 @@ margin-top: 20px;
  margin-bottom: 10px;
 }
 
+.also-head {
+ text-align: center;
+}
+
 .also img {
 height: 50px;
 padding-right: 7px;
@@ -118,7 +175,6 @@ padding-right: 7px;
 
 .info-box {
  margin-top: 20px;
- margin-bottom: 30px;
  padding: 20px;
 border: 1px solid #aaa;
 border-radius: 10px;
@@ -221,16 +277,6 @@ font-family: "franklin-gothic-urw",sans-serif;
  display: none;
 }
 
-@media only screen and (min-width: 650px) {
- .navbar {
-  display: none;
- }
- 
- .item-list {
- display: block;
-}
- 
-}
 
 @media only screen and (min-width: 576px) {
  
@@ -241,5 +287,107 @@ font-family: "franklin-gothic-urw",sans-serif;
 }
 
 }
+
+
+@media only screen and (min-width: 650px) {
+
+ .item-list {
+ display: block;
+}
+ 
+ .alert {
+ margin-bottom: 0 !important;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+.top-strip {
+background: #f6f0ef;
+padding: 0;
+margin: 0;
+}
+
+.top-strip h1 {
+ font-size: 36.8px;
+ font-family: arial;
+ font-weight: bold;
+}
+
+body {
+    background: none repeat scroll 0% 0% #00193c !important;
+}
+
+.navbar {
+ background: #f6f0ef;
+ margin-bottom: 0 !important;
+ padding: 0;
+min-height: 50px;
+border-radius: 0 !important;
+width: 100%;
+margin-right: 15px;
+}
+
+.navbar-collapse {
+ padding-right: 0 !important;
+}
+
+
+.navbar-nav {
+ width: 100%;
+ padding-left: 0;
+}
+
+.nav-item {
+  border-right: 1px solid #999;
+  margin: 0;
+  box-sizing: border-box;
+  border-bottom: 5px solid #f6f0ef;
+  text-align: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  min-height: 50px !important;
+
+}
+
+.nav-item:first-of-type {
+  border-left: 1px solid #999;
+}
+
+.nav-item:hover {
+ border-bottom: 5px solid #00193c;
+}
+
+.nav-link {
+width: 100%;
+height: 100%;
+position: relative;
+}
+
+.nav-link span {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -55%);
+  transform: translate(-50%, -55%);
+  display: block;
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link,  .navbar-light .navbar-nav .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link:hover {
+ color: #000;
+ text-decoration: none;
+}
+ 
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  ;
+ }
+ 
+}
+
 
 

@@ -132,6 +132,12 @@ border-radius: 10px;
  padding-top: 5px;
 }
 
+.info-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .subject-header {
     color: #666;
     font-family: "Times New Roman", Times, serif;
