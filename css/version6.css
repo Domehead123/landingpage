@@ -525,10 +525,10 @@ position: relative;
 .nav-link span {
   margin: 0;
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -55%);
-  transform: translate(-50%, -55%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   display: block;
   width: 100%;
 }
