@@ -556,6 +556,10 @@ position: relative;
  padding: 0;
 }
 
+.footer a:hover {
+   color: #fff !important;
+}
+
 .social a {
  display: block;
  margin: 5px 0;
