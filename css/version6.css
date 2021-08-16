@@ -331,7 +331,8 @@ font-family: "franklin-gothic-urw",sans-serif;
  border-right: 1px solid rgba(255,255,255,0.4);
 }
 
- .footer-column:nth-of-type(5) {
+
+ .footer-column:nth-of-type(4), .footer-column:nth-of-type(5) {
  border-right: 0;
 }
 
