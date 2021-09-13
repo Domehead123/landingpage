@@ -138,6 +138,10 @@ label[for="ctl00_SearchBox1_siteSearch"] {
 #ctl00_SearchBox1_pnlSiteSearch {
  margin-top: 18px;
 }
+
+.container {
+ max-width: 100%;
+}
 .landing-box-container {
  display: flex;
 }
@@ -538,7 +542,8 @@ position: relative;
  
 .stayconnected  {
  text-align: left;
-}gi
+}
+
 .footer-column:nth-of-type(1) {
  border-right: 1px solid rgba(255,255,255,0.4);
 }
